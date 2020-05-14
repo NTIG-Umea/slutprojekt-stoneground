@@ -1,0 +1,132 @@
+/* text on img*/
+.text-img {
+    position: absolute;
+    background: rgba(0,0,0,0.9);
+    color: #fff;
+    bottom: 20px;
+    left: 20px;
+    font-size: 32px;
+    font-weight: 600;
+    padding: 20px;
+    line-height: 40px;
+    width: calc(100% - 150px);
+    box-sizing: border-box;    
+}
+/* date of post*/
+.date {
+    position: absolute;
+    border: 2px solid #262626;
+    top: -50px;
+    right: 50px;
+    background: #ff0;
+    color: #262626;
+    padding: 20px;
+}
+
+/* img background of current img*/
+
+.bg {
+    height: 105%;
+    width: 105%;
+    filter:brightness(0.2) blur(7px);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*post*/
+.blog-post {
+position: relative;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;  
+}
+
+.post {
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    background: #000;
+}
+
+.post img {
+    object-fit: cover;
+    width: 800px;
+    height: 500px;
+}
+
+.post .idk {
+    position: absolute;
+    border: 2px solid #262626;
+    color: #262626;
+    background: #ff0;
+    padding: 10px 40px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+/* end of post*/
+/*prev*/
+.post .idk.prev {
+    top: 50px;
+    left: -80px;
+}
+/*next*/
+.post .idk.next {
+    bottom: 50px;
+    right: -80px;
+}
+
+
+/* img selection*/
+.bg1 {
+    background-image: url(https://cdn.pixabay.com/photo/2017/10/06/17/31/classic-car-2823885_1280.jpg);
+}
+
+.bg2 {
+    background-image: url(https://cdn.pixabay.com/photo/2017/04/10/16/55/live-music-2219036_1280.jpg);
+    
+}
+
+.bg3 {
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/18/18/32/bloom-1836315_1280.jpg);
+    
+}
+
+.bg4 {
+    background-image: url(https://cdn.pixabay.com/photo/2015/09/09/17/05/grill-931878_1280.jpg);
+    
+}
+
+.bg5 {
+    background-image: url(https://cdn.pixabay.com/photo/2015/04/08/13/13/food-712665_1280.jpg);
+    
+}
+
+.bg6 {
+    background-image: url(https://cdn.pixabay.com/photo/2016/09/17/22/43/billiards-1677103_1280.jpg);
+    
+}
+
+.bg7 {
+    background-image: url(https://picsum.photos/id/1012/1200/720);
+    
+}
+
+.bg9 {
+    background-image: url(https://cdn.pixabay.com/photo/2020/01/11/07/39/north-4756774_1280.jpg);
+}
+
+.bg10 {
+    background-image: url(https://cdn.pixabay.com/photo/2013/10/29/19/23/beer-garden-202556_1280.jpg);
+}
+
+.bg11 {
+    background-image: url(https://cdn.pixabay.com/photo/2013/06/09/17/04/fire-123784_1280.jpg);
+}
+
+.bg12 {
+    background-image: url(https://picsum.photos/id/1083/1200/720);
+}
+/*end of new*/
