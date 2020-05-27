@@ -46,12 +46,6 @@ transition: background .3s;
   
 }
 
-
-
-
-
-
-
 .nav {
   list-style: none;
   display: flex;
@@ -120,35 +114,37 @@ transition: background .3s;
 
 
 /*footer*/
-#footer{
-  background-color: #212121;
-  height: 60px;
-  position: fixed;
-  bottom: 0px;
-  left: 0px;
-  line-height: 50px;
-  color: #aaa;
+
+/*
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
   text-align: center;
-  width: 100%;
-  display: flex;
 }
+*/
+
+/*footer removed due to error*/
 
 
 /*img*/ 
-.masthead {
+.stortext {
   padding: 6em 0;
-  background-image: url('https://cdn.pixabay.com/photo/2016/11/21/13/04/alcoholic-beverages-1845295_1280.jpg');
+  background-image: url('https://images.pexels.com/photos/274192/pexels-photo-274192.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
   background-size: cover;
   background-repeat: no-repeat;
   
 }
-.masthead-intro {
+.stortext-intro {
   font-family: 'Jost', sans-serif;
   font-size: 2em;
   color: white;
   font-weight: bold;
 }
-.masthead-heading {
+.stortext-heading {
   margin-top: -0.2em;
   font-family: 'Jost', sans-serif;
   font-weight: bold;
@@ -157,11 +153,46 @@ transition: background .3s;
   text-transform: uppercase;
 }
 
-.masthead-heading,
-.masthead-intro {
+.stortext-heading,
+.stortext-intro {
 text-align: center;
 color: white ;
 text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 /*end of img*/
 
+
+footer p {
+  padding: 40px 0;
+  text-align: center;
+  
+}
+
+footer img {
+  width: 44px;
+}
+
+
+.preview{
+   width: 300px;
+   border: #aa863a 5px solid;
+  padding: 50px;
+  margin: 20px;
+  position: center;
+ }
+ 
+ .content {
+   font-family: sans-serif;
+   margin: .5rem 0 .5rem;
+ 
+ }
+
+
+ .center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+ 
+ 

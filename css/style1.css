@@ -3,7 +3,9 @@ body {
     padding: 0;
     text-align: center;
     background-image: url("https://cdn.pixabay.com/photo/2014/10/22/17/49/bar-498415_1280.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
+    background-color: gray;
     background-position: center;
     font-family: sans-serif;
     color: white ;

@@ -24,3 +24,53 @@
 			width: 100%;
 		}
 	}
+
+
+
+	.pageHeaderTitle {
+		margin: 2rem 0;
+		text-transform: uppercase;
+		text-align: center;
+		font-size: 2.5rem;
+	  }
+
+	  .main{
+		max-width: 1200px;
+		margin: 0 auto;
+	  }
+
+	  .cards {
+		display: flex;
+		flex-wrap: wrap;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	  }
+	  
+	  .cards_item {
+		display: flex;
+		padding: 1rem;
+	  }
+
+	  
+	  .card_title {
+		color: #ffffff;
+		font-size: 1.1rem;
+		font-weight: 700;
+		letter-spacing: 1px;
+		text-transform: capitalize;
+		margin: 0px;
+	  }
+
+	  .btn{
+		padding: 13px 0;
+		border: 1px solid #333;
+		color: #333;
+		font-weight: 700;
+		text-transform: uppercase;
+		font-size: 13px;
+		letter-spacing: 3px;
+		transition: all .2s ease-in-out;
+	  }
+
+	  
