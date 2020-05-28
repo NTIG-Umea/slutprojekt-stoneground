@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url("https://cdn.pixabay.com/photo/2014/10/22/17/49/bar-498415_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: gray;
+    background-position: center;
+    font-family: sans-serif;
+    color: white ;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+    .contact-title{
+    margin-top: 100px;
+    color: #fff;
+    text-transform:uppercase;
+    transition: all 4s ease-in-out;
+    }
+    
+    .contact-title h2
+    {
+    font-size: 16px;
+    }
+    
+    form {
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+    }
+    
+    .form-control{
+    width: 600px;
+    background: transparent;
+    border:none;
+    outline: none;
+    border-bottom: 1px solid white;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+    }
+    
+    input{
+    height: 65px;
+   
+    ;
+    }
+    
+    form .submit{
+    background: #ff5722;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    }
+    
+    form .submit:hover {
+    background-color: #f44336;
+    cursor: pointer;
+    
+    }
